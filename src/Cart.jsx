@@ -75,7 +75,7 @@ function Cart() {
         </div>
 
         <p style={{ fontSize: "18px" }}>
-          <strong>Preço total dos produtos:</strong> R$ {valueCart}
+          <strong>Preço total dos produtos:</strong> R$ {Number(valueCart.replace(',', '.')).toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}
         </p>
 
 
