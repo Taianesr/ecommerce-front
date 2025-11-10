@@ -7,7 +7,7 @@ export function useEcommerceData() {
     useEffect(() => {
         async function fetchProducts() {
             try {
-                const response = await axios.get("http://ec2-35-175-186-217.compute-1.amazonaws.com:8080/allProducts");
+                const response = await axios.get("https://d2r5x5vu7be00b.cloudfront.net/allProducts");
                 const products = await Promise.all(
                     response.data.map(async (product) => {
                         const imageResponse = await axios.get(product.image_url, { responseType: "blob" });

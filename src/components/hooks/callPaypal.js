@@ -2,7 +2,7 @@ import { stringify } from "postcss";
 
 export async function callPaypal(productsCartv2) {
 
-  const response = await fetch("http://ec2-35-175-186-217.compute-1.amazonaws.com:8080/order", {
+  const response = await fetch("https://d2r5x5vu7be00b.cloudfront.net/order", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(productsCartv2)

@@ -6,7 +6,7 @@ export async function useAddToCart(cart) {
     }));
 
     try {
-        const response = await fetch("http://ec2-35-175-186-217.compute-1.amazonaws.com:8080/cart/final-price", {
+        const response = await fetch("https://d2r5x5vu7be00b.cloudfront.net/cart/final-price", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
