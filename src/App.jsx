@@ -55,7 +55,7 @@ function App() {
 
 
 
-  }cd
+  }
 
   useEffect(() => {
     if (!auth.isAuthenticated) return;
