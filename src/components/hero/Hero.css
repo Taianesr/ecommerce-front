@@ -1,0 +1,36 @@
+.hero {
+    padding: 3rem 2rem;
+}
+
+.hero-content {
+    gap: 2rem;
+}
+
+.logo {
+    width: 140px;
+    height: auto;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.description {
+    color: #b5b5b5;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.btn-primary {
+    background-color: #000;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}

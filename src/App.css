@@ -1,28 +1,30 @@
-.container {
+.hero {
+    display: flex;
+    justify-content: center;
+    background-color: #1e1e1e;
+    padding: 3rem 2rem;
+}
+
+.hero-content {
     display: flex;
     align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    width: 100vw
+    gap: 2rem;
+    max-width: 1000px;
 }
 
-.card-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 16px;
+.logo {
+    width: 130px;
 }
 
-.container button {
-    background-color: #0275d8;
-    color: white;
-    font-weight: bold;
-    position: fixed;
-    bottom: 16px;
-    right: 24px;
-    transition: all 0.1s linear 0.1s;
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.75rem;
 }
 
-.container button:hover {
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 7px 0px;
-    transform: scale(1.1);
+.description {
+    margin-bottom: 1rem;
+}
+
+.products-container {
+    margin-top: 2rem;
 }
